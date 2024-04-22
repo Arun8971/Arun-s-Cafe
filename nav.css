@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+    background-color: white;
+}
+
+header{
+    background-color: whitesmoke;
+    height: 6.4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 0.6rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+
+.nav-links a,li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 0.8rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.nav-btn{
+    display: none;
+}
+
+
+.material-icons{
+    font-size: 2.2rem;
+}
+
+
+/*   Media Queries  */
+
+@media (max-width:650px){
+    .nav-links{
+        display: none;
+    }
+
+    .nav-btn{
+        display: flex;
+        align-items: center;
+    }
+
+    #close-menu{
+        display: none;
+    }
+
+    #menu{
+        position: absolute;
+        top:6.4rem;
+        right: 1em;
+        left: 1em;
+        text-align: center;
+        margin: 0 1rem;
+        background-color: lightgray;
+    }
+
+    #menu li{
+        background-color: white;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 0.3rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transition-duration: 0.4s;
+    }
+
+    #menu li:hover{
+        background-color: antiquewhite;
+    }
+}
+
+
+
+@media (min-width:650px){
+    .nav-links li{
+        border: none;
+        border-radius: 0.3rem;
+        height: 2.2em;
+        width: 5.2em;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+
+    .nav-links li:hover{
+        background-color: lightgray;
+    }
+    
+}
+
+
+
+
+
+
