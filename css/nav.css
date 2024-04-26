@@ -92,6 +92,7 @@ nav{
         text-align: center;
         margin: 0 1rem;
         background-color: lightgray;
+        border-radius: 0.2rem;
         z-index: 1;
     }
 
