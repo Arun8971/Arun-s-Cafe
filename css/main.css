@@ -2,17 +2,13 @@
      width: 100vw;
      height: 19rem;
      background-color: #e7e7e7;
-     display: flex;
-     justify-content: center;
-     align-items: center;
 }
-
 
 .container{
     height: 100%;
     width: 100%;
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -62,20 +58,23 @@ button:hover{
 
 
 
-
-@media(max-width:320px){
+@media(min-width:375px){
 
     .box{
-        left: 3.8rem;
+        left: 0.2rem;
+
     }
   .container{
     grid-template-columns: repeat(1,1fr);
   }
 }
 
+
+
+
 @media(min-width:375px){
     .box{
-        right: 0.5rem;
+        left: 0.1rem;
     }
 
     .container{
