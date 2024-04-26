@@ -67,7 +67,10 @@ nav{
 
 /*   Media Queries  */
 
-@media (max-width:650px){
+
+
+
+@media (max-width:700px){
     .nav-links{
         display: none;
     }
@@ -112,7 +115,7 @@ nav{
 
 
 
-@media (min-width:650px){
+@media (min-width:700px){
     .nav-links li{
         border: none;
         border-radius: 0.3rem;
