@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/css/nav.css">
+        <link rel="stylesheet" href="/css/head.css">
+    
+        <title>Pizzas</title>
+    </head>
+
+    <body>
+        <header class="head">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="/images/logo.png" alt="Arun's Cafe">
+                </div>
+    
+                <div class="nav-links" id="menu">
+                   <a href="#">
+                    <li>Home</li>
+                   </a>
+                   <a href="#">
+                    <li>Services</li>
+                   </a>
+                   <a href="#">
+                    <li>About</li>
+                   </a>
+                   <a href="#">
+                    <li>Contact</li>
+                   </a>
+                </div>
+    
+                <div class="nav-btn">
+                    <i class="material-icons" id="open-menu" onclick="openMenu()">apps</i>
+                    <i class="material-icons" id="close-menu" onclick="closeMenu()">cancel</i>
+                </div>
+            </nav>
+        </header>
+
+        <div class="offer">
+        
+        </div>
+
+        <!-- main content-->
+
+        <div class="container">
+            <div class="box">
+                <h1>Aloo Tikki</h1>
+                <img src="/images/burger/alootikki.webp" alt="margherita">
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" placeholder="₹ 249" disabled>
+                
+                
+                <button>Buy Now</button>
+                <button>Add to cart</button>
+            </div>
+                
+            <div class="box">
+                <h1>Paneer Tikka</h1>
+                <img src="/images/burger/paneer.jpg" alt="margherita">
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" placeholder="₹ 359" disabled>
+                
+                
+                <button>Buy Now</button>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="box">
+                <h1>Vegetable</h1>
+                <img src="/images/burger/vege.jpg" alt="margherita">
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" placeholder="₹ 149" disabled>
+                
+                
+                <button>Buy Now</button>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="box">
+                <h1>Chole Masala</h1>
+                <img src="/images/burger/chole.png" alt="margherita">
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" placeholder="₹ 199" disabled>
+                
+                
+                <button>Buy Now</button>
+                <button>Add to cart</button>
+            </div>
+        </div>
+
+      <!--Custom alert box by chat gpt-->
+
+
+      
+      
+        <script src="/js/script.js"></script>
+    </body>
+</html>
