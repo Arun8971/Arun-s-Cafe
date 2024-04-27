@@ -87,6 +87,70 @@ button:hover{
 }
 
 
+/* burger alert*/
+
+.alert-burger{
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 4px;
+    height: 25rem;
+    width:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.3rem;
+    position: fixed;
+    display: none;
+}
+
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+    resize: none;
+  }
+
+.alert-burger img{
+    height: 5em;
+    width: 10em;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.3rem;
+    
+}
+
+#address{
+    margin-top: 1rem;
+}
+
+#address cursor{
+     margin-left: 9rem;
+}
+
+.form{
+    height: 10rem;
+    width: 18rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form h1{
+    font-size: 0.9em;
+    font-weight: 900;
+}
+
 
   
 
