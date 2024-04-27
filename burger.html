@@ -55,7 +55,7 @@
                 <input type="text" id="price" placeholder="₹ 249" disabled>
                 
                 
-                <button>Buy Now</button>
+                <button onclick="buyNow('Aloo Tikki Burger','₹249')>Buy Now</button>
                 <button>Add to cart</button>
             </div>
                 
@@ -67,7 +67,7 @@
                 <input type="text" id="price" placeholder="₹ 359" disabled>
                 
                 
-                <button>Buy Now</button>
+                <button onclick="buyNow('Paneer Tikka Burger','₹359')>Buy Now</button>
                 <button>Add to cart</button>
             </div>
 
@@ -79,7 +79,7 @@
                 <input type="text" id="price" placeholder="₹ 149" disabled>
                 
                 
-                <button>Buy Now</button>
+                <button onclick="buyNow('Vegetable Burger','₹149')>Buy Now</button>
                 <button>Add to cart</button>
             </div>
 
@@ -91,12 +91,24 @@
                 <input type="text" id="price" placeholder="₹ 199" disabled>
                 
                 
-                <button>Buy Now</button>
+                <button onclick="buyNow('Chole Masala Burger','₹199')">Buy Now</button>
                 <button>Add to cart</button>
             </div>
         </div>
 
-      <!--Custom alert box by chat gpt-->
+      <!--Custom alert box-->
+
+
+      <div class="alert-burger">
+
+        <img src="/images/logo.png" alt="logo">
+        <div class="form">
+            <form class="checkout">
+                <h1>Please enter your complete address for delivery</h1>
+                <textarea name="" id="address" cols="30" rows="10"></textarea>
+                <button onclick="checkout()">Submit</button>
+            </form>
+        </div>
 
 
       
