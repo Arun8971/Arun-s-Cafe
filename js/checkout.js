@@ -15,22 +15,14 @@ function checkout(){
         var itemName = localStorage.getItem('itemName');
         var itemPrice = localStorage.getItem('itemPrice');
 
-        var greeting = `Greetings from Arun's Cafe\n\nYour order: ${itemName}\nPrice: ${itemPrice} is Confirmed..! & We'll deliver it to you soon. Enjoy your meal!\n\nDelivery address: ${address}`;
+        var greeting = `Greetings from Arun's Cafe\n\nYour order: ${itemName}\nPrice: ${itemPrice} is Confirmed..! &\nWe'll deliver it to you soon. Enjoy your meal!\n\nDelivery address: ${address}`;
 
         alert(greeting);
-
-            let alertbox=document.querySelector('.alert-burger');
-
-            alertbox.style.display='none';
     }
     
     else{
         let msg="Please enter valid address for delivery";
         alert(msg);
-
-            let alertbox=document.querySelector('.alert-burger');
-
-            alertbox.style.display='block';
     }
 }
 
